@@ -1,0 +1,24 @@
+{
+  "name": "eve-points-bot",
+  "version": "1.0.0",
+  "description": "A simple bot to farm points on Evedex exchange by opening and closing BTC trades",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "evedex",
+    "trading",
+    "bot",
+    "crypto",
+    "btc"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@evedex/exchange-bot-sdk": "^1.1.46",
+    "ws": "^8.18.3"
+  }
+}
