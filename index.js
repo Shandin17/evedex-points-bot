@@ -3,7 +3,7 @@ const WebSocket = require("ws");
 
 // Configuration
 const CONFIG = {
-  INSTRUMENT: "BTCUSD:DEV", // Change to "BTCUSDT:PROD" for production
+  INSTRUMENT: "BTCUSD:DEV", // Change to "BTCUSD" for production
   LEVERAGE: 50,
   ORDER_CASH_QUANTITY: 300, // Adjust based on your account size
   INTERVAL_MS: 3000, // 3 seconds
