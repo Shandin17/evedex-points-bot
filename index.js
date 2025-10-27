@@ -8,8 +8,7 @@ const CONFIG = {
   ORDER_CASH_QUANTITY: 300, // Adjust based on your account size
   INTERVAL_MS: 3000, // 3 seconds
   USE_PRODUCTION: false, // Set to true for production
-  WALLET_PRIVATE_KEY:
-    "0xcb6c44a022478d227783b8dde75caa1d0f8d05e4889129b071904db66d5a519f",
+  WALLET_PRIVATE_KEY: "0x...", // Your wallet private key,
 };
 
 // Initialize container
@@ -33,8 +32,8 @@ const container = CONFIG.USE_PRODUCTION
         },
         apiKeys: {},
       },
-      true
-    ); // Debug mode enabled for demo
+      false
+    );
 
 const gateway = container.gateway();
 
