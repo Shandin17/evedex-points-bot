@@ -1,5 +1,5 @@
-import * as evedexSdk from "@evedex/exchange-bot-sdk";
-import { WebSocket } from "ws";
+const evedexSdk = require("@evedex/exchange-bot-sdk");
+const { WebSocket } = require("ws");
 
 // Configuration
 const INSTRUMENT = process.env.INSTRUMENT || "BTCUSDT:DEMO";
