@@ -66,7 +66,7 @@ npm start
 3. Run:
 
 ```bash
-npm run prod
+npm start
 ```
 
 ### Stopping the Bot
